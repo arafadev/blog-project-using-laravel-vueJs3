@@ -33,7 +33,11 @@
     </div>
     <!-- main -->
     <main class="container">
-    <!-- render components depending on the page visited  -->
+
+        <!-- render components depending on the page visited  -->
+
+        <router-view></router-view>
+
     </main>
 
     <!-- Main footer -->
